@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "face_comparison/face_comparison/wsgi.py",
+        "src": "face_comparison/wsgi.py",
         "use": "@vercel/python",
         "config": {
           "maxLambdaSize": "15mb",
@@ -20,7 +20,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "face_comparison/face_comparison/wsgi.py"
+        "dest": "face_comparison/wsgi.py"
       }
     ]
    
