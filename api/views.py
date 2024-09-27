@@ -68,3 +68,10 @@ def compare_faces(request):
         })
 
     return render(request, 'api/compare_faces.html')
+
+
+
+
+# New view for About page
+def about(request):
+    return render(request, 'api/about.html')  # This will render an about.html template
